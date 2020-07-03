@@ -25,11 +25,39 @@ void bubbleSort() {
 }
 
 //Selection sort
+int findSmallest(int arr[], int i) {
+    int currentSmallest, position;
+    currentSmallest = arr[i];
+    position = i;
+    for (int j = i; j < 5; j++) {
+        if (arr[j] < currentSmallest) {
+            currentSmallest = arr[j];
+            position = j;
+        }
+    }
+    return position;
+}
+void selectionSort() {
+    int arr[5] = { 12,45,8,15,33 };
+    int pos, temp;
+    for (int i = 0; i < 5; i++) {
+        pos = findSmallest(arr, i);
+        temp = arr[i];
+        arr[i] = arr[pos];
+        arr[pos] = temp;
+    }
+    
+    for (int i = 0; i < 5; i++) {
+        cout << arr[i] << "\t";
+    }
+}
+
 
 
 int main()
 {
-    bubbleSort();
+    //bubbleSort();
+    selectionSort();
 }
 
 // Run program: Ctrl + F5 or Debug > Start Without Debugging menu
