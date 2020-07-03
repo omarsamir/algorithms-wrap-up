@@ -1,0 +1,4 @@
+﻿  algorithms-wrap-up.cpp
+D:\problem-solving\algorithms-wrap-up\algorithms-wrap-up\algorithms-wrap-up\algorithms-wrap-up.cpp(10,12): warning C4101: 'j': unreferenced local variable
+D:\problem-solving\algorithms-wrap-up\algorithms-wrap-up\algorithms-wrap-up\algorithms-wrap-up.cpp(10,9): warning C4101: 'i': unreferenced local variable
+  algorithms-wrap-up.vcxproj -> D:\problem-solving\algorithms-wrap-up\algorithms-wrap-up\Debug\algorithms-wrap-up.exe
